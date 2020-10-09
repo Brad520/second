@@ -1,0 +1,62 @@
+*{ padding:0; margin:0; font-family:arial;}
+
+body{background: #dedede ;  height: 2000px;
+
+}
+#top{background: url(img/未标题-1.png) repeat-x ;height: 58px;}
+.top-menu{float:right;}
+.top-menu li{float:left;padding-right: 18px;;list-style:none;padding-top: 14px;}
+.top-menu a{color: whitesmoke;text-decoration:none;}
+.box1{left: 10px; position: absolute;}
+
+#one{width:860px;height: 811px;border: pink;  top: 23px;left: 20px; position: relative;background:wheat; }
+#one h1{  text-align: center; color: turquoise; }
+#one h2{font-size: 18px;padding-left:18px ;}
+#one p{padding-left: 24px;padding-right: 18px;font-family: monospace;line-height: 24px;}
+#one p img{float:right; }
+#one a{color:rgb(189, 179, 162);}
+.space{margin-right:2em;}
+
+
+#two{background:wheat ;height:708px ;width:860px ;top: 23px;left: 20px;position: relative;margin-top: 23px;}
+#two img{float: right;  }
+#two p{padding-left: 18px;padding-right: 18px;line-height: 24px;font-size: 16px;}
+#two h1{ text-align: center; color: green; }
+#two h2{font-size: 20px;padding-left: 12px;}
+#two a{ color:green;  }
+
+#three{height:410px ;width:860px ;background: wheat;left:20px ;top: 24px;position: relative;margin-top: 23px;}
+#three h1{border: 1px solid black;text-align: center;}
+#three h2{}
+#three p{}
+.three-list{padding-left:20px ;border: 1px solid black;}
+
+table.imagetable{font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;}
+    table.imagetable th {
+        border-width: 1px;
+        padding-left: 130px;
+        padding-bottom: 18px;
+        padding-right: 130px;
+        padding-top: 18px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #1b1b1b;
+        
+    }
+    table.imagetable td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #96571d;
+    }
+
+    #side{  position: relative;left: 1000px;width: 365px;height: 500px;
+        background:  wheat;top: -1950px; }
+    #side h2{ padding: 18px;  }
+    #side label { float: left; width: 100px;  text-align: right;margin-right: 1em; text-align: right; }
